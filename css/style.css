@@ -1,0 +1,126 @@
+.blue {
+  background-color: #182c50;
+}
+.bg-blue {
+  background-color: #001030;
+}
+.bg-lig {
+  background-color: #eeeeee;
+}
+/* go to top */
+#toTop {
+  padding: 1px 6px;
+  background: #000;
+  font-size: 18px;
+  color: #fff;
+  position: fixed;
+  bottom: 25px;
+  right: 5px;
+  z-index: 99;
+  display: none;
+}
+#toTop:hover i {
+  color: red;
+}
+/* video section start */
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+header video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000aa;
+  z-index: 1;
+}
+.lead {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+.lead-intro {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+}
+/* navbar start */
+/* photography-studio */
+.photography-studio p {
+  width: 80%;
+  margin: 0 auto;
+}
+/* three img div start */
+.three-img-card {
+  border-radius: 4px;
+}
+.three-img-card a:hover {
+  text-decoration: none;
+}
+.three-img-card img {
+  width: 100%;
+  height: 215px;
+}
+/* about us */
+/* watch images */
+.img-watch-img {
+  height: 250px;
+}
+/* history */
+.history-txt {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+/* best services */
+/* plans and prising */
+.list-group-item-blue {
+  background-color: #182c50;
+}
+.list-group-flush-light {
+  color: #eeeeee;
+}
+/* our clients */
+.our-client {
+  padding: 15px;
+  border-radius: 4px;
+}
+.our-client img{
+  height: 215px;
+}
+/* footer section start */
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+  .mobile-bottom-margin {
+    margin-bottom: 15px;
+  }
+}

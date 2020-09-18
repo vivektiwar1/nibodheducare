@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Photography Studio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="js/index.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+	<link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet"/>
+	</head>
+	<!-- AIzaSyBFa_AvHDItypgqapldfGNnK1pBDadduAw -->
+  <body>
+		<!-- go to top -->
+		<div id='toTop'><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+		<!-- video section -->
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="./images/cymatics.mp4" type="video/mp4">
+			</video>
+			<div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <p class="lead mb-4">INTRODUCING</p>
+            <h1 class="lead-intro">PHOTOGRAPHY.STUDIO</h1>
+          </div>
+        </div>
+      </div>
+		</header>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-light bg-dark fixed-top" style="display:none" id="sticky">
+			<a class="navbar-brand text-white" href="index.html">Photography Studio</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="product.html">Product <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<!-- <li class="nav-item active">
+						<a class="nav-link text-white" href="#">Address <span class="sr-only">(current)</span></a>
+					</li> -->
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="contact.html">Contact Us<span
+								class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Photography Studio -->
+		<div class="container-fluid text-center center">
+			<div class="row">
+				<div class="col-md-12 py-5 bg-blue photography-studio">
+					<h1 class="text-light text-center font-weight-bold">Photography Studio</h1>
+					<p class="text-light text-center font-weight-bold mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet sed imperdiet consectetur.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Three img div -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-white">
+					<div class="row py-5">
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card">
+								<a href="product.html">
+									<img src="./images/fam.jpg">
+									<h6 class="font-weight-bold text-center text-danger pt-2 px-1">Family Party</h6>
+									<p class="text-center text-dark px-3 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card">
+								<a href="product.html">
+									<img src="./images/pre.jpg">
+									<h6 class="font-weight-bold text-center text-danger pt-2 px-1">Pre Wedding Shoot</h6>
+									<p class="text-center text-dark px-3 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto">
+							<div class="card three-img-card">
+								<a href="product.html">
+									<img src="./images/wed.jpg">
+									<h6 class="font-weight-bold text-center text-danger pt-2 px-1">Wedding Photography</h6>
+									<p class="text-center text-dark px-3 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- about us -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-lig">
+					<div class="row my-5">
+						<div class="col-md-6 mx-auto">
+							<h1 class="font-weight-bold">About Us</h1>
+							<div class="inner-about-us-div px-3">
+								<p class="text-dark mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+								<i class="fa fa-camera mt-3 text-success fa-2x" aria-hidden="true"> Quality </i>
+								<p class="text-dark mt-3">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+								<i class="fa fa-picture-o mt-3 text-success fa-2x" aria-hidden="true"> Services </i>
+								<p class="text-dark mt-3">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<img src="./images/img.jpg" class="w-100 h-100">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- watch images -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-white">
+					<div class="row my-5">
+						<div class="col-md-5 mx-auto">
+							<img src="./images/nat.webp" class="w-100 img-watch-img">
+						</div>
+						<div class="col-md-6">
+							<h1 class="font-weight-bold">Watch Images</h1>
+							<div class="inner-about-us-div px-3">
+								<p class="text-dark mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+								<i class="fa fa-file mt-3 text-success fa-2x" aria-hidden="true"> Services </i>
+								<p class="text-dark mt-3">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- history -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-lig">
+					<h1 class="font-weight-bold text-center text-success pt-5">History</h1>
+					<p class="text-dark history-txt pt-3 pb-5 mb-0">Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet sed dapibus consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+				</div>
+			</div>
+		</div>
+		<!-- best services -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-blue">
+					<div class="row pt-5">
+						<div class="col-md-8 mx-auto">
+							<h1 class="font-weight-bold text-white">Best Services</h1>
+							<p class=" text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<div class="col-md-3">
+							<button type="button" class="btn btn-success mt-3">
+								<i class="fa fa-commenting  text-light" aria-hidden="true"> </i>
+								Contact Us</button>
+						</div>
+					</div>
+					<div class="row pt-5">
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-building text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-camera-retro text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">John loreum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-desktop text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row py-5">
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-plane text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-plane text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">John loreum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-briefcase text-success fa-2x" aria-hidden="true"></i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<p class="text-center text-secondary px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-arrow-circle-o-right fa-2x text-secondary" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- plans and prising -->
+					<div class="row pt-5">
+						<div class="col-md-12 text-center">
+							<h1 class="font-weight-bold text-white">Plans And Pricing</h1>
+							<p class=" text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</p>
+						</div>
+					</div>
+					<div class="row py-5">
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-diamond text-success fa-4x" aria-hidden="true"></i>
+								</div>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-usd text-success fa-2x" aria-hidden="true">&nbsp;199</i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<ul class="list-group list-group-flush list-group-flush-light ">
+									<li class="list-group-item list-group-item-blue">First item</li>
+									<li class="list-group-item list-group-item-blue">Second item</li>
+									<li class="list-group-item list-group-item-blue">Third item</li>
+									<li class="list-group-item list-group-item-blue">Fourth item</li>
+								</ul>
+								<div class="text-center mt-4 mb-5 mx-3">
+									<button type="button" class="btn btn-success btn-block">Success</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-fire text-success fa-4x" aria-hidden="true"></i>
+								</div>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-usd text-success fa-2x" aria-hidden="true">&nbsp;599</i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<ul class="list-group list-group-flush list-group-flush-light ">
+									<li class="list-group-item list-group-item-blue">First item</li>
+									<li class="list-group-item list-group-item-blue">Second item</li>
+									<li class="list-group-item list-group-item-blue">Third item</li>
+									<li class="list-group-item list-group-item-blue">Fourth item</li>
+								</ul>
+								<div class="text-center mt-4 mb-5 mx-3">
+									<button type="button" class="btn btn-success btn-block">Success</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto">
+							<div class="card three-img-card blue">
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-microchip text-success fa-4x" aria-hidden="true"></i>
+								</div>
+								<div class="text-center mt-3 mb-4">
+									<i class="fa fa-usd text-success fa-2x" aria-hidden="true">&nbsp;1999</i>
+								</div>
+								<h6 class="font-weight-bold text-center text-white px-2 pb-4">lorem ipsum</h6>
+								<ul class="list-group list-group-flush list-group-flush-light ">
+									<li class="list-group-item list-group-item-blue">First item</li>
+									<li class="list-group-item list-group-item-blue">Second item</li>
+									<li class="list-group-item list-group-item-blue">Third item</li>
+									<li class="list-group-item list-group-item-blue">Fourth item</li>
+								</ul>
+								<div class="text-center mt-4 mb-5 mx-3">
+									<button type="button" class="btn btn-success btn-block">Success</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- our clients -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-white">
+					<div class="row pt-5">
+						<div class="col-md-12 text-center">
+							<h1 class="font-weight-bold text-success mb-0">Our Clients</h1>
+						</div>
+					</div>
+					<div class="row py-5">
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="our-client bg-blue">
+								<a href="">
+									<img src="./images/client1.jpg" class="w-100 rounded-circle">
+									<h6 class="font-weight-bold text-center text-white pt-3">John</h6>
+									<p class="text-center text-white pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto mobile-bottom-margin">
+							<div class="our-client bg-blue">
+								<a href="">
+									<img src="./images/pre.jpg" class="w-100 rounded-circle">
+									<h6 class="font-weight-bold text-center text-white pt-3">Harsh and Harshita</h6>
+									<p class="text-center text-white pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mx-auto">
+							<div class="our-client bg-blue">
+								<a href="">
+									<img src="./images/client2.webp" class="w-100 rounded-circle">
+									<h6 class="font-weight-bold text-center text-white pt-3">Mike</h6>
+									<p class="text-center text-white pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- lets talk -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg-lig">
+					<div class="row my-5">
+						<div class="col-md-6 mx-auto">
+							<h1 class="font-weight-bold">Lets Talk?</h1>
+							<div class="inner-about-us-div px-3">
+								<p class="text-dark mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<form id="send_mail">
+									<div class="form-group">
+										<input type="text" class="form-control bg-lig" placeholder="Name" id="name" required>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control bg-lig" placeholder="Email" id="email" required>
+									</div>
+									<div class="form-group">
+										<input type="number" class="form-control bg-lig"  placeholder="Mobile Number" id="number">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control bg-lig" rows="5" id="comment"
+											placeholder="Your Message"></textarea>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn bg-primary text-white" onclick="sendEmail()">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div id="osm-map" class="w-100 h-100"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 bg-dark">
+						<div class="row mt-5 mb-4">
+							<div class=" col-md-5 mx-auto">
+								<h1 class="font-weight-bold text-success">Photo Studio</h1>
+								<p class="text-white px-3">Lorem ipsum dolor sit amet, dolor sit amet amet amet amet consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur amet adipiscing elit.</p>
+							</div>
+							<div class="col-md-2">
+								<h5 class="font-weight-bold text-white">Pages:-</h5>
+								<p class="mx-2 mb-2"><a class="text-white" href="index.html">Home</a></p>
+								<p class="mx-2 mb-2"><a class="text-white" href="product.html">Product</a></p>
+								<!-- <p class="mx-2 mb-2"><a class="text-white" href="">Address</a></p> -->
+								<p class="mx-2 mb-2"><a class="text-white" href="contact.html">Contact Us</a></p>
+							</div>
+							<div class="col-md-4 text-white">
+								<h5 class="font-weight-bold text-white">Contact Details:-</h5>
+								<div class="">
+									<i class="fa fa-address-book text-white" aria-hidden="true"> Address:</i>
+									<address class="mx-3">
+										Box 564, Disneyland<br>
+										USA
+									</address>
+								</div>
+								<div class="">
+									<i class="fa fa-phone text-white" aria-hidden="true"> Phone:</i>
+									<p class="mx-3">+91 9876543210</p>
+								</div>
+								<div class="">
+									<i class="fa fa-envelope text-white " aria-hidden="true"> Email:</i>
+									<p class="mx-3">studio@photo.com</p>
+								</div>
+			
+							</div>
+						</div>
+					</div>
+					
+				</div>
+		</footer>
+		<script>
+			$(document).ready(function() {
+        $('body').on('submit', '#send_mail', function(event) {
+					event.preventDefault();
+					sendEmail();
+				});
+			});
+			var element = document.getElementById('osm-map');
+			var map = L.map(element);
+			L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+					attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+			}).addTo(map);
+			var target = L.latLng('47.50737', '19.04611');
+			map.setView(target, 14);
+			L.marker(target).addTo(map);
+		</script>
+  </body>
+</html>
